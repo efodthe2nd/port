@@ -1,0 +1,55 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#1a0a1a"/>
+
+  <!-- Background gradient circles -->
+  <circle cx="960" cy="540" r="500" fill="#ec4899" opacity="0.03"/>
+  <circle cx="960" cy="540" r="400" fill="#ec4899" opacity="0.05"/>
+  <circle cx="960" cy="540" r="300" fill="#ec4899" opacity="0.03"/>
+
+  <!-- Header -->
+  <rect x="160" y="40" width="140" height="40" rx="8" fill="#ec4899" opacity="0.8"/>
+  <rect x="1400" y="40" width="100" height="40" rx="20" fill="#ec4899"/>
+  <rect x="1520" y="40" width="100" height="40" rx="8" fill="#262626"/>
+  <rect x="1640" y="40" width="100" height="40" rx="8" fill="#262626"/>
+
+  <!-- Main headline -->
+  <rect x="320" y="200" width="400" height="80" rx="8" fill="#fafafa" opacity="0.9"/>
+  <rect x="320" y="300" width="320" height="80" rx="8" fill="#fafafa" opacity="0.9"/>
+
+  <!-- Skateboard illustration -->
+  <ellipse cx="1100" cy="520" rx="400" ry="60" fill="#262626" opacity="0.3"/>
+
+  <!-- Skateboard deck -->
+  <rect x="700" y="380" width="800" height="160" rx="80" fill="#1a1a1a" stroke="#ec4899" stroke-width="2" transform="rotate(-8 1100 460)"/>
+  <rect x="720" y="400" width="760" height="120" rx="60" fill="#262626" transform="rotate(-8 1100 460)"/>
+
+  <!-- Grip tape pattern -->
+  <rect x="780" y="420" width="640" height="80" rx="40" fill="#0a0a0a" transform="rotate(-8 1100 460)"/>
+
+  <!-- Trucks -->
+  <rect x="820" y="540" width="120" height="30" rx="4" fill="#a1a1a1" transform="rotate(-8 880 555)"/>
+  <rect x="1260" y="500" width="120" height="30" rx="4" fill="#a1a1a1" transform="rotate(-8 1320 515)"/>
+
+  <!-- Wheels -->
+  <circle cx="800" cy="600" r="40" fill="#ec4899"/>
+  <circle cx="800" cy="600" r="25" fill="#1a1a1a"/>
+  <circle cx="920" cy="590" r="40" fill="#ec4899"/>
+  <circle cx="920" cy="590" r="25" fill="#1a1a1a"/>
+  <circle cx="1280" cy="560" r="40" fill="#ec4899"/>
+  <circle cx="1280" cy="560" r="25" fill="#1a1a1a"/>
+  <circle cx="1400" cy="550" r="40" fill="#ec4899"/>
+  <circle cx="1400" cy="550" r="25" fill="#1a1a1a"/>
+
+  <!-- Background text -->
+  <text x="200" y="750" fill="#ec4899" font-family="system-ui" font-size="200" font-weight="900" opacity="0.05">SUBURBIA</text>
+
+  <!-- Tagline -->
+  <rect x="320" y="800" width="500" height="24" rx="4" fill="#a1a1a1" opacity="0.5"/>
+  <rect x="320" y="840" width="380" height="24" rx="4" fill="#a1a1a1" opacity="0.3"/>
+
+  <!-- CTA -->
+  <rect x="320" y="900" width="200" height="56" rx="8" fill="transparent" stroke="#fafafa" stroke-width="2"/>
+  <rect x="360" y="916" width="120" height="24" rx="4" fill="#fafafa" opacity="0.8"/>
+
+  <text x="960" y="1040" text-anchor="middle" fill="#ec4899" font-family="system-ui" font-size="24" font-weight="500" opacity="0.5">Suburbia Skateboards</text>
+</svg>

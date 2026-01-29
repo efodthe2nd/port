@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  <rect x="360" y="80" width="1200" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Checkout header -->
+  <rect x="400" y="120" width="200" height="32" rx="4" fill="#262626"/>
+
+  <!-- Order summary -->
+  <rect x="400" y="200" width="500" height="400" rx="12" fill="#1a1a1a"/>
+  <rect x="440" y="240" width="200" height="24" rx="4" fill="#262626"/>
+  <rect x="440" y="300" width="420" height="1" fill="#262626"/>
+  <rect x="440" y="340" width="300" height="20" rx="4" fill="#262626"/>
+  <rect x="440" y="380" width="180" height="32" rx="4" fill="#8b5cf6" opacity="0.3"/>
+  <rect x="440" y="460" width="420" height="1" fill="#262626"/>
+  <rect x="440" y="500" width="150" height="20" rx="4" fill="#a1a1a1"/>
+  <rect x="640" y="500" width="80" height="20" rx="4" fill="#8b5cf6"/>
+
+  <!-- Payment form -->
+  <rect x="960" y="200" width="560" height="600" rx="12" fill="#1a1a1a"/>
+  <rect x="1000" y="240" width="200" height="24" rx="4" fill="#262626"/>
+
+  <!-- Card input -->
+  <rect x="1000" y="300" width="480" height="56" rx="8" fill="#262626"/>
+  <rect x="1000" y="380" width="230" height="56" rx="8" fill="#262626"/>
+  <rect x="1250" y="380" width="230" height="56" rx="8" fill="#262626"/>
+
+  <!-- Pay button -->
+  <rect x="1000" y="700" width="480" height="56" rx="8" fill="#8b5cf6"/>
+
+  <!-- Stripe badge -->
+  <rect x="1180" y="780" width="120" height="24" rx="4" fill="#262626"/>
+
+  <text x="960" y="1020" text-anchor="middle" fill="#8b5cf6" font-family="system-ui" font-size="20" opacity="0.4">Stripe Checkout</text>
+</svg>

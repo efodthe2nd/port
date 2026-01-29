@@ -1,0 +1,25 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  <rect x="360" y="80" width="1200" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Progress bar -->
+  <rect x="400" y="120" width="1120" height="8" rx="4" fill="#262626"/>
+  <rect x="400" y="120" width="400" height="8" rx="4" fill="#8b5cf6"/>
+
+  <!-- Question -->
+  <rect x="400" y="200" width="600" height="40" rx="4" fill="#262626"/>
+  <rect x="400" y="260" width="800" height="24" rx="4" fill="#1a1a1a"/>
+
+  <!-- Text area -->
+  <rect x="400" y="340" width="1120" height="400" rx="12" fill="#1a1a1a" stroke="#262626"/>
+  <rect x="440" y="380" width="800" height="20" rx="4" fill="#262626"/>
+  <rect x="440" y="420" width="600" height="20" rx="4" fill="#262626"/>
+  <rect x="440" y="460" width="700" height="20" rx="4" fill="#262626"/>
+  <rect x="440" y="500" width="500" height="20" rx="4" fill="#262626"/>
+
+  <!-- Buttons -->
+  <rect x="400" y="800" width="160" height="48" rx="8" fill="#262626"/>
+  <rect x="1200" y="800" width="160" height="48" rx="8" fill="#8b5cf6"/>
+
+  <text x="960" y="1020" text-anchor="middle" fill="#8b5cf6" font-family="system-ui" font-size="20" opacity="0.4">Questionnaire Interface</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+
+  <!-- Two phones -->
+  <!-- Phone 1 - Business scanning -->
+  <rect x="400" y="80" width="360" height="760" rx="44" fill="#141414" stroke="#262626" stroke-width="3"/>
+  <rect x="420" y="116" width="320" height="688" rx="28" fill="#1a1a1a"/>
+
+  <!-- Scanner UI -->
+  <rect x="450" y="160" width="260" height="40" rx="4" fill="#262626"/>
+  <rect x="460" y="240" width="240" height="240" rx="16" fill="#262626"/>
+  <rect x="500" y="280" width="160" height="160" rx="8" fill="#14b8a6" opacity="0.2"/>
+
+  <!-- Scan lines -->
+  <rect x="520" y="350" width="120" height="4" fill="#14b8a6"/>
+  <rect x="580" y="300" width="4" height="120" fill="#14b8a6"/>
+
+  <rect x="450" y="520" width="260" height="60" rx="8" fill="#14b8a6"/>
+  <rect x="480" y="540" width="200" height="20" rx="4" fill="white" opacity="0.8"/>
+
+  <!-- Recent scans -->
+  <rect x="450" y="620" width="260" height="150" rx="8" fill="#262626"/>
+  <circle cx="490" cy="670" r="20" fill="#14b8a6" opacity="0.5"/>
+  <rect x="520" y="660" width="160" height="20" rx="4" fill="#1a1a1a"/>
+  <circle cx="490" cy="730" r="20" fill="#14b8a6" opacity="0.5"/>
+  <rect x="520" y="720" width="140" height="20" rx="4" fill="#1a1a1a"/>
+
+  <!-- Phone 2 - Customer view -->
+  <rect x="1160" y="80" width="360" height="760" rx="44" fill="#fafafa" stroke="#e5e5e5" stroke-width="3"/>
+  <rect x="1180" y="116" width="320" height="688" rx="28" fill="#f5f5f5"/>
+
+  <!-- Success state -->
+  <circle cx="1340" cy="300" r="60" fill="#14b8a6" opacity="0.2"/>
+  <circle cx="1340" cy="300" r="40" fill="#14b8a6"/>
+  <path d="M1315 300 L1330 315 L1365 280" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <rect x="1240" y="400" width="200" height="32" rx="4" fill="#262626"/>
+  <rect x="1260" y="450" width="160" height="20" rx="4" fill="#a1a1a1"/>
+
+  <!-- Updated stamp count -->
+  <rect x="1210" y="520" width="260" height="140" rx="12" fill="white" stroke="#14b8a6"/>
+  <circle cx="1260" cy="590" r="24" fill="#14b8a6"/>
+  <circle cx="1310" cy="590" r="24" fill="#14b8a6"/>
+  <circle cx="1360" cy="590" r="24" fill="#14b8a6"/>
+  <circle cx="1410" cy="590" r="24" fill="#14b8a6"/>
+  <rect x="1240" y="630" width="180" height="16" rx="4" fill="#14b8a6" opacity="0.3"/>
+
+  <!-- Reward unlocked -->
+  <rect x="1210" y="700" width="260" height="60" rx="8" fill="#14b8a6"/>
+
+  <!-- Arrow between phones -->
+  <path d="M800 460 L1120 460" stroke="#14b8a6" stroke-width="4" stroke-dasharray="12 8"/>
+  <path d="M1100 440 L1120 460 L1100 480" stroke="#14b8a6" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <text x="960" y="920" text-anchor="middle" fill="#14b8a6" font-family="system-ui" font-size="20" opacity="0.4">Scan Flow</text>
+</svg>

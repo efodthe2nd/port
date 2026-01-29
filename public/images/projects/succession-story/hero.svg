@@ -1,0 +1,37 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  <rect x="160" y="120" width="1600" height="840" rx="24" fill="#141414" stroke="#262626" stroke-width="2"/>
+
+  <!-- Header bar -->
+  <rect x="160" y="120" width="1600" height="64" rx="24" fill="#1a1a1a"/>
+  <circle cx="200" cy="152" r="8" fill="#8b5cf6" opacity="0.8"/>
+  <rect x="240" y="144" width="120" height="16" rx="4" fill="#262626"/>
+
+  <!-- Hero section mockup -->
+  <rect x="360" y="280" width="600" height="48" rx="8" fill="#8b5cf6" opacity="0.2"/>
+  <rect x="360" y="350" width="800" height="72" rx="8" fill="#262626"/>
+  <rect x="360" y="450" width="600" height="24" rx="4" fill="#1a1a1a"/>
+  <rect x="360" y="490" width="500" height="24" rx="4" fill="#1a1a1a"/>
+
+  <!-- CTA Button -->
+  <rect x="360" y="560" width="200" height="56" rx="12" fill="#8b5cf6"/>
+  <rect x="400" y="576" width="120" height="24" rx="4" fill="white" opacity="0.9"/>
+
+  <!-- Price card -->
+  <rect x="1200" y="280" width="400" height="300" rx="16" fill="#1a1a1a" stroke="#8b5cf6" stroke-width="2" opacity="0.5"/>
+  <rect x="1280" y="340" width="240" height="32" rx="4" fill="#262626"/>
+  <rect x="1300" y="400" width="200" height="64" rx="4" fill="#8b5cf6" opacity="0.3"/>
+  <rect x="1280" y="500" width="240" height="48" rx="8" fill="#8b5cf6"/>
+
+  <!-- Form mockup -->
+  <rect x="360" y="700" width="500" height="180" rx="16" fill="#1a1a1a"/>
+  <rect x="400" y="740" width="420" height="48" rx="8" fill="#262626"/>
+  <rect x="400" y="808" width="200" height="48" rx="8" fill="#8b5cf6"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1500" cy="750" r="120" fill="#8b5cf6" opacity="0.05"/>
+  <circle cx="1550" cy="800" r="80" fill="#8b5cf6" opacity="0.08"/>
+
+  <!-- Text: Succession Story -->
+  <text x="960" y="1000" text-anchor="middle" fill="#8b5cf6" font-family="system-ui" font-size="24" font-weight="500" opacity="0.5">Succession Story</text>
+</svg>

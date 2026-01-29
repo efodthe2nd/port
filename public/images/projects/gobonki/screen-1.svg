@@ -1,0 +1,49 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+
+  <!-- Dashboard -->
+  <rect x="200" y="80" width="1520" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Sidebar -->
+  <rect x="200" y="80" width="280" height="920" fill="#1a1a1a"/>
+  <rect x="240" y="120" width="120" height="32" rx="4" fill="#14b8a6"/>
+  <rect x="240" y="200" width="200" height="40" rx="8" fill="#14b8a6" opacity="0.2"/>
+  <rect x="240" y="260" width="200" height="40" rx="8" fill="#262626"/>
+  <rect x="240" y="320" width="200" height="40" rx="8" fill="#262626"/>
+  <rect x="240" y="380" width="200" height="40" rx="8" fill="#262626"/>
+
+  <!-- Main content -->
+  <rect x="520" y="120" width="300" height="32" rx="4" fill="#262626"/>
+
+  <!-- Stats cards -->
+  <rect x="520" y="200" width="280" height="140" rx="12" fill="#1a1a1a"/>
+  <rect x="560" y="240" width="100" height="20" rx="4" fill="#262626"/>
+  <rect x="560" y="280" width="160" height="40" rx="4" fill="#14b8a6"/>
+
+  <rect x="830" y="200" width="280" height="140" rx="12" fill="#1a1a1a"/>
+  <rect x="870" y="240" width="100" height="20" rx="4" fill="#262626"/>
+  <rect x="870" y="280" width="120" height="40" rx="4" fill="#14b8a6" opacity="0.7"/>
+
+  <rect x="1140" y="200" width="280" height="140" rx="12" fill="#1a1a1a"/>
+  <rect x="1180" y="240" width="100" height="20" rx="4" fill="#262626"/>
+  <rect x="1180" y="280" width="140" height="40" rx="4" fill="#14b8a6" opacity="0.5"/>
+
+  <!-- Customers table -->
+  <rect x="520" y="380" width="900" height="560" rx="12" fill="#1a1a1a"/>
+  <rect x="560" y="420" width="160" height="24" rx="4" fill="#262626"/>
+
+  <!-- Table rows -->
+  <rect x="560" y="480" width="820" height="48" rx="4" fill="#262626"/>
+  <rect x="560" y="544" width="820" height="48" rx="4" fill="#141414"/>
+  <rect x="560" y="608" width="820" height="48" rx="4" fill="#262626"/>
+  <rect x="560" y="672" width="820" height="48" rx="4" fill="#141414"/>
+  <rect x="560" y="736" width="820" height="48" rx="4" fill="#262626"/>
+
+  <!-- Stamps indicator -->
+  <circle cx="1200" cy="504" r="12" fill="#14b8a6"/>
+  <circle cx="1230" cy="504" r="12" fill="#14b8a6"/>
+  <circle cx="1260" cy="504" r="12" fill="#14b8a6"/>
+  <circle cx="1290" cy="504" r="12" fill="#262626"/>
+
+  <text x="960" y="1040" text-anchor="middle" fill="#14b8a6" font-family="system-ui" font-size="20" opacity="0.4">Business Dashboard</text>
+</svg>

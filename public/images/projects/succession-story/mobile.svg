@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+
+  <!-- Phone frame -->
+  <rect x="760" y="40" width="400" height="850" rx="48" fill="#141414" stroke="#262626" stroke-width="3"/>
+  <rect x="780" y="80" width="360" height="770" rx="32" fill="#1a1a1a"/>
+
+  <!-- Status bar -->
+  <rect x="900" y="60" width="120" height="24" rx="12" fill="#262626"/>
+
+  <!-- Content -->
+  <rect x="810" y="140" width="200" height="24" rx="4" fill="#8b5cf6" opacity="0.5"/>
+  <rect x="810" y="190" width="300" height="48" rx="4" fill="#262626"/>
+  <rect x="810" y="260" width="280" height="20" rx="4" fill="#262626"/>
+  <rect x="810" y="290" width="240" height="20" rx="4" fill="#262626"/>
+
+  <!-- Price card mobile -->
+  <rect x="810" y="360" width="300" height="160" rx="12" fill="#262626"/>
+  <rect x="840" y="400" width="120" height="24" rx="4" fill="#8b5cf6" opacity="0.3"/>
+  <rect x="840" y="450" width="80" height="32" rx="4" fill="#8b5cf6"/>
+  <rect x="840" y="500" width="240" height="12" rx="4" fill="#1a1a1a"/>
+
+  <!-- Form -->
+  <rect x="810" y="560" width="300" height="56" rx="8" fill="#262626"/>
+  <rect x="810" y="640" width="300" height="56" rx="8" fill="#8b5cf6"/>
+
+  <!-- Testimonials -->
+  <rect x="810" y="740" width="300" height="80" rx="8" fill="#262626"/>
+  <circle cx="840" cy="780" r="16" fill="#8b5cf6" opacity="0.3"/>
+  <rect x="870" y="765" width="200" height="12" rx="4" fill="#1a1a1a"/>
+  <rect x="870" y="785" width="160" height="12" rx="4" fill="#1a1a1a"/>
+
+  <text x="960" y="1020" text-anchor="middle" fill="#8b5cf6" font-family="system-ui" font-size="20" opacity="0.4">Mobile Experience</text>
+</svg>

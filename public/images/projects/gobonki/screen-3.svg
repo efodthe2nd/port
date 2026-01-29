@@ -1,0 +1,48 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  <rect x="200" y="80" width="1520" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Header -->
+  <rect x="240" y="120" width="200" height="32" rx="4" fill="#262626"/>
+  <rect x="1480" y="120" width="200" height="40" rx="8" fill="#14b8a6"/>
+
+  <!-- Card designer -->
+  <rect x="240" y="200" width="700" height="600" rx="16" fill="#1a1a1a"/>
+
+  <!-- Preview card -->
+  <rect x="320" y="280" width="540" height="320" rx="16" fill="#262626"/>
+  <rect x="360" y="320" width="120" height="40" rx="8" fill="#14b8a6"/>
+  <rect x="360" y="380" width="200" height="24" rx="4" fill="#1a1a1a"/>
+
+  <!-- Stamp preview -->
+  <circle cx="400" cy="480" r="32" fill="#14b8a6"/>
+  <circle cx="480" cy="480" r="32" fill="#14b8a6"/>
+  <circle cx="560" cy="480" r="32" fill="#14b8a6" opacity="0.5"/>
+  <circle cx="640" cy="480" r="32" fill="#1a1a1a"/>
+  <circle cx="720" cy="480" r="32" fill="#1a1a1a"/>
+  <circle cx="800" cy="480" r="32" fill="#1a1a1a"/>
+
+  <!-- Color picker -->
+  <rect x="320" y="640" width="460" height="120" rx="8" fill="#262626"/>
+  <circle cx="380" cy="700" r="24" fill="#14b8a6"/>
+  <circle cx="440" cy="700" r="24" fill="#3b82f6"/>
+  <circle cx="500" cy="700" r="24" fill="#8b5cf6"/>
+  <circle cx="560" cy="700" r="24" fill="#ec4899"/>
+  <circle cx="620" cy="700" r="24" fill="#f97316"/>
+
+  <!-- Settings panel -->
+  <rect x="1000" y="200" width="680" height="600" rx="16" fill="#1a1a1a"/>
+  <rect x="1040" y="240" width="200" height="24" rx="4" fill="#262626"/>
+
+  <!-- Form fields -->
+  <rect x="1040" y="300" width="600" height="56" rx="8" fill="#262626"/>
+  <rect x="1040" y="380" width="600" height="56" rx="8" fill="#262626"/>
+  <rect x="1040" y="460" width="290" height="56" rx="8" fill="#262626"/>
+  <rect x="1350" y="460" width="290" height="56" rx="8" fill="#262626"/>
+  <rect x="1040" y="540" width="600" height="120" rx="8" fill="#262626"/>
+
+  <!-- Save button -->
+  <rect x="1440" y="700" width="200" height="56" rx="8" fill="#14b8a6"/>
+
+  <text x="960" y="1040" text-anchor="middle" fill="#14b8a6" font-family="system-ui" font-size="20" opacity="0.4">Card Designer</text>
+</svg>

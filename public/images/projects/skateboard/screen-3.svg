@@ -1,0 +1,59 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#1a0a1a"/>
+
+  <!-- Cart / Checkout -->
+  <rect x="300" y="80" width="1320" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Header -->
+  <rect x="340" y="120" width="160" height="32" rx="4" fill="#fafafa"/>
+
+  <!-- Cart items -->
+  <rect x="340" y="200" width="800" height="180" rx="12" fill="#1a1a1a"/>
+  <rect x="380" y="240" width="120" height="100" rx="8" fill="#262626"/>
+  <rect x="400" y="260" width="80" height="60" rx="20" fill="#ec4899" opacity="0.3"/>
+  <rect x="540" y="250" width="200" height="24" rx="4" fill="#fafafa"/>
+  <rect x="540" y="290" width="300" height="20" rx="4" fill="#262626"/>
+  <rect x="540" y="320" width="100" height="24" rx="4" fill="#ec4899"/>
+  <rect x="1020" y="280" width="80" height="40" rx="4" fill="#262626"/>
+
+  <rect x="340" y="400" width="800" height="180" rx="12" fill="#1a1a1a"/>
+  <rect x="380" y="440" width="120" height="100" rx="8" fill="#262626"/>
+  <rect x="400" y="460" width="80" height="60" rx="20" fill="#3b82f6" opacity="0.3"/>
+  <rect x="540" y="450" width="180" height="24" rx="4" fill="#fafafa"/>
+  <rect x="540" y="490" width="280" height="20" rx="4" fill="#262626"/>
+  <rect x="540" y="520" width="100" height="24" rx="4" fill="#ec4899"/>
+  <rect x="1020" y="480" width="80" height="40" rx="4" fill="#262626"/>
+
+  <!-- Summary -->
+  <rect x="1180" y="200" width="400" height="500" rx="12" fill="#1a1a1a"/>
+  <rect x="1220" y="240" width="160" height="24" rx="4" fill="#262626"/>
+
+  <rect x="1220" y="300" width="200" height="20" rx="4" fill="#262626"/>
+  <rect x="1480" y="300" width="80" height="20" rx="4" fill="#fafafa"/>
+
+  <rect x="1220" y="340" width="200" height="20" rx="4" fill="#262626"/>
+  <rect x="1480" y="340" width="60" height="20" rx="4" fill="#fafafa"/>
+
+  <rect x="1220" y="380" width="320" height="1" fill="#262626"/>
+
+  <rect x="1220" y="410" width="120" height="24" rx="4" fill="#262626"/>
+  <rect x="1460" y="410" width="100" height="24" rx="4" fill="#ec4899"/>
+
+  <!-- Promo code -->
+  <rect x="1220" y="480" width="240" height="48" rx="8" fill="#262626"/>
+  <rect x="1480" y="480" width="80" height="48" rx="8" fill="#ec4899" opacity="0.5"/>
+
+  <!-- Checkout button -->
+  <rect x="1220" y="600" width="320" height="56" rx="8" fill="#ec4899"/>
+  <rect x="1320" y="616" width="120" height="24" rx="4" fill="white" opacity="0.9"/>
+
+  <!-- Trust badges -->
+  <rect x="1260" y="680" width="60" height="24" rx="4" fill="#262626"/>
+  <rect x="1340" y="680" width="60" height="24" rx="4" fill="#262626"/>
+  <rect x="1420" y="680" width="60" height="24" rx="4" fill="#262626"/>
+
+  <!-- Continue shopping -->
+  <rect x="340" y="620" width="200" height="48" rx="8" fill="transparent" stroke="#ec4899" stroke-width="2"/>
+
+  <text x="960" y="1040" text-anchor="middle" fill="#ec4899" font-family="system-ui" font-size="20" opacity="0.4">Shopping Cart</text>
+</svg>

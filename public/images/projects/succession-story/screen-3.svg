@@ -1,0 +1,24 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  <rect x="360" y="80" width="1200" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Success icon -->
+  <circle cx="960" cy="300" r="80" fill="#8b5cf6" opacity="0.2"/>
+  <circle cx="960" cy="300" r="60" fill="#8b5cf6" opacity="0.3"/>
+  <path d="M920 300 L950 330 L1000 270" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Success message -->
+  <rect x="760" y="420" width="400" height="40" rx="4" fill="#262626"/>
+  <rect x="680" y="480" width="560" height="24" rx="4" fill="#1a1a1a"/>
+  <rect x="720" y="520" width="480" height="24" rx="4" fill="#1a1a1a"/>
+
+  <!-- Letter preview -->
+  <rect x="560" y="600" width="800" height="300" rx="12" fill="#1a1a1a" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  <rect x="600" y="640" width="300" height="24" rx="4" fill="#262626"/>
+  <rect x="600" y="700" width="720" height="16" rx="4" fill="#262626"/>
+  <rect x="600" y="730" width="680" height="16" rx="4" fill="#262626"/>
+  <rect x="600" y="760" width="700" height="16" rx="4" fill="#262626"/>
+  <rect x="600" y="820" width="200" height="20" rx="4" fill="#8b5cf6" opacity="0.5"/>
+
+  <text x="960" y="1020" text-anchor="middle" fill="#8b5cf6" font-family="system-ui" font-size="20" opacity="0.4">Completion & Preview</text>
+</svg>

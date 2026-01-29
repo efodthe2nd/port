@@ -1,0 +1,70 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#1a0a1a"/>
+
+  <!-- 3D Viewport -->
+  <rect x="200" y="80" width="1200" height="920" rx="16" fill="#0a0a0a"/>
+
+  <!-- Grid floor -->
+  <line x1="200" y1="700" x2="1400" y2="700" stroke="#ec4899" stroke-width="1" opacity="0.1"/>
+  <line x1="200" y1="750" x2="1400" y2="750" stroke="#ec4899" stroke-width="1" opacity="0.1"/>
+  <line x1="200" y1="800" x2="1400" y2="800" stroke="#ec4899" stroke-width="1" opacity="0.1"/>
+
+  <!-- Skateboard 3D representation -->
+  <ellipse cx="800" cy="500" rx="350" ry="50" fill="#262626" opacity="0.3"/>
+
+  <!-- Deck -->
+  <rect x="450" y="350" width="700" height="140" rx="70" fill="#1a1a1a" stroke="#ec4899" stroke-width="2"/>
+  <rect x="470" y="370" width="660" height="100" rx="50" fill="#262626"/>
+
+  <!-- Graphic on deck -->
+  <rect x="550" y="390" width="500" height="60" rx="30" fill="#ec4899" opacity="0.3"/>
+  <rect x="620" y="405" width="360" height="30" rx="15" fill="#ec4899" opacity="0.5"/>
+
+  <!-- Trucks -->
+  <rect x="520" y="490" width="100" height="24" rx="4" fill="#a1a1a1"/>
+  <rect x="980" y="490" width="100" height="24" rx="4" fill="#a1a1a1"/>
+
+  <!-- Wheels -->
+  <circle cx="500" cy="540" r="35" fill="#ec4899"/>
+  <circle cx="500" cy="540" r="20" fill="#1a1a1a"/>
+  <circle cx="600" cy="540" r="35" fill="#ec4899"/>
+  <circle cx="600" cy="540" r="20" fill="#1a1a1a"/>
+  <circle cx="1000" cy="540" r="35" fill="#ec4899"/>
+  <circle cx="1000" cy="540" r="20" fill="#1a1a1a"/>
+  <circle cx="1100" cy="540" r="35" fill="#ec4899"/>
+  <circle cx="1100" cy="540" r="20" fill="#1a1a1a"/>
+
+  <!-- Customizer panel -->
+  <rect x="1440" y="80" width="320" height="920" rx="16" fill="#141414" stroke="#262626"/>
+
+  <!-- Panel header -->
+  <rect x="1480" y="120" width="160" height="32" rx="4" fill="#ec4899"/>
+
+  <!-- Deck options -->
+  <rect x="1480" y="200" width="100" height="20" rx="4" fill="#262626"/>
+  <rect x="1480" y="240" width="240" height="80" rx="8" fill="#262626"/>
+  <rect x="1500" y="260" width="60" height="40" rx="4" fill="#1a1a1a"/>
+  <rect x="1580" y="260" width="60" height="40" rx="4" fill="#ec4899" opacity="0.5"/>
+  <rect x="1660" y="260" width="60" height="40" rx="4" fill="#1a1a1a"/>
+
+  <!-- Wheel color -->
+  <rect x="1480" y="360" width="100" height="20" rx="4" fill="#262626"/>
+  <circle cx="1510" cy="420" r="24" fill="#ec4899"/>
+  <circle cx="1570" cy="420" r="24" fill="#3b82f6"/>
+  <circle cx="1630" cy="420" r="24" fill="#22c55e"/>
+  <circle cx="1690" cy="420" r="24" fill="#fafafa"/>
+
+  <!-- Graphic upload -->
+  <rect x="1480" y="480" width="100" height="20" rx="4" fill="#262626"/>
+  <rect x="1480" y="520" width="240" height="100" rx="8" fill="#262626" stroke="#ec4899" stroke-dasharray="8 4"/>
+  <rect x="1560" y="555" width="80" height="30" rx="4" fill="#ec4899" opacity="0.3"/>
+
+  <!-- Price -->
+  <rect x="1480" y="800" width="240" height="80" rx="8" fill="#1a1a1a"/>
+  <rect x="1520" y="825" width="80" height="32" rx="4" fill="#ec4899"/>
+
+  <!-- Add to cart -->
+  <rect x="1480" y="900" width="240" height="56" rx="8" fill="#ec4899"/>
+
+  <text x="800" y="1000" text-anchor="middle" fill="#ec4899" font-family="system-ui" font-size="20" opacity="0.4">3D Customizer</text>
+</svg>
