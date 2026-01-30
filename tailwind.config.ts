@@ -9,18 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#0a0a0a",
-        surface: "#141414",
-        "surface-hover": "#1a1a1a",
-        border: "#262626",
-        "text-primary": "#fafafa",
-        "text-secondary": "#a1a1a1",
+        background: "var(--background)",
+        surface: "var(--surface)",
+        "surface-hover": "var(--surface-hover)",
+        border: "var(--border)",
+        "text-primary": "var(--text-primary)",
+        "text-secondary": "var(--text-secondary)",
         accent: {
-          blue: "#3b82f6",
-          purple: "#8b5cf6",
-          teal: "#14b8a6",
-          orange: "#f97316",
-          pink: "#ec4899",
+          blue: "var(--accent-blue)",
+          purple: "var(--accent-purple)",
+          teal: "var(--accent-teal)",
+          orange: "var(--accent-orange)",
+          pink: "var(--accent-pink)",
         },
       },
       fontFamily: {

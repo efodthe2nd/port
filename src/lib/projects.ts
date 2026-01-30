@@ -10,11 +10,34 @@ export interface Project {
     hero: string;
     screens: string[];
   };
+  video?: string; // YouTube video ID for card preview
+  heroVideo?: string; // Local video for project detail page
   accent: string;
   year: string;
 }
 
 export const projects: Project[] = [
+  {
+    slug: "skateboard",
+    title: "Suburbia Skateboards",
+    subtitle: "3D skateboard customizer with WebGL",
+    description:
+      "An immersive 3D skateboard customization experience. Users can design their perfect board with real-time 3D preview, custom graphics, and wheel configurations. Built with Three.js and React Three Fiber for smooth 60fps interactions.",
+    stack: ["React", "Three.js", "React Three Fiber", "GSAP", "Tailwind CSS"],
+    liveUrl: "#",
+    images: {
+      hero: "/images/projects/skateboard/hero.png",
+      screens: [
+        "/images/projects/skateboard/screen-1.png",
+        "/images/projects/skateboard/screen-2.png",
+        "/images/projects/skateboard/screen-3.png",
+      ],
+    },
+    video: "44I29krtxaw",
+    heroVideo: "/images/projects/skateboard/hero-video.mp4",
+    accent: "#ec4899", // Pink
+    year: "2024",
+  },
   {
     slug: "succession-story",
     title: "Succession Story",
@@ -24,7 +47,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Supabase", "Stripe", "Tailwind CSS"],
     liveUrl: "https://successionstory.com",
     images: {
-      hero: "/images/projects/succession-story/hero.svg",
+      hero: "/images/projects/succession-story/hero.png",
       screens: [
         "/images/projects/succession-story/screen-1.svg",
         "/images/projects/succession-story/screen-2.svg",
@@ -44,7 +67,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "PostgreSQL", "Apple Wallet API", "Tailwind CSS"],
     liveUrl: "https://gobonki.com",
     images: {
-      hero: "/images/projects/gobonki/hero.svg",
+      hero: "/images/projects/gobonki/hero.png",
       screens: [
         "/images/projects/gobonki/screen-1.svg",
         "/images/projects/gobonki/screen-2.svg",
@@ -52,27 +75,9 @@ export const projects: Project[] = [
         "/images/projects/gobonki/screen-4.svg",
       ],
     },
+    video: "HD9GT_2_0yo",
     accent: "#14b8a6", // Teal
     year: "2025",
-  },
-  {
-    slug: "skateboard",
-    title: "Suburbia Skateboards",
-    subtitle: "3D skateboard customizer with WebGL",
-    description:
-      "An immersive 3D skateboard customization experience. Users can design their perfect board with real-time 3D preview, custom graphics, and wheel configurations. Built with Three.js and React Three Fiber for smooth 60fps interactions.",
-    stack: ["React", "Three.js", "React Three Fiber", "GSAP", "Tailwind CSS"],
-    liveUrl: "#",
-    images: {
-      hero: "/images/projects/skateboard/hero.svg",
-      screens: [
-        "/images/projects/skateboard/screen-1.svg",
-        "/images/projects/skateboard/screen-2.svg",
-        "/images/projects/skateboard/screen-3.svg",
-      ],
-    },
-    accent: "#ec4899", // Pink
-    year: "2024",
   },
 ];
 

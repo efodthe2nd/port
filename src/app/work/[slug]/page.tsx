@@ -114,7 +114,7 @@ export default function ProjectPage() {
                 {project.stack.map((tech) => (
                   <span
                     key={tech}
-                    className="px-3 py-1.5 text-sm font-mono text-text-secondary bg-surface border border-border rounded-lg"
+                    className="px-3 py-1.5 text-sm font-mono text-text-secondary bg-surface border border-border rounded-lg transition-colors hover:bg-yellow-400 hover:text-black hover:border-yellow-400 cursor-default"
                   >
                     {tech}
                   </span>
@@ -150,7 +150,7 @@ export default function ProjectPage() {
           </div>
         </section>
 
-        {/* Hero Image */}
+        {/* Hero Image/Video */}
         <section className="px-4 md:px-8 mb-16">
           <div className="max-w-7xl mx-auto">
             <motion.div
@@ -159,13 +159,24 @@ export default function ProjectPage() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="relative aspect-video rounded-2xl overflow-hidden bg-surface border border-border"
             >
-              <ProjectImage
-                src={project.images.hero}
-                alt={`${project.title} hero`}
-                className="object-cover"
-                priority
-                accentColor={project.accent}
-              />
+              {project.heroVideo ? (
+                <video
+                  src={project.heroVideo}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <ProjectImage
+                  src={project.images.hero}
+                  alt={`${project.title} hero`}
+                  className="object-cover"
+                  priority
+                  accentColor={project.accent}
+                />
+              )}
             </motion.div>
           </div>
         </section>

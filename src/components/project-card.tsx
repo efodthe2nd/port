@@ -29,17 +29,26 @@ export function ProjectCard({ project, className = "" }: ProjectCardProps) {
         whileTap="tap"
         className="group relative rounded-2xl bg-surface border border-border overflow-hidden cursor-pointer transition-colors duration-300 hover:border-border/80"
       >
-        {/* Image container */}
+        {/* Media container */}
         <div className="relative aspect-[16/10] overflow-hidden bg-background">
           <motion.div variants={imageVariants} className="relative w-full h-full">
-            <ProjectImage
-              src={project.images.hero}
-              alt={project.title}
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority
-              accentColor={project.accent}
-            />
+            {project.video ? (
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${project.video}?autoplay=1&mute=1&loop=1&playlist=${project.video}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                className="pointer-events-none absolute inset-0 w-full h-full border-0 scale-[1.5] object-cover"
+                title={project.title}
+              />
+            ) : (
+              <ProjectImage
+                src={project.images.hero}
+                alt={project.title}
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                priority
+                accentColor={project.accent}
+              />
+            )}
             {/* Gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-surface/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </motion.div>

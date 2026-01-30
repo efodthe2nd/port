@@ -68,12 +68,6 @@ export function BioCard() {
           <p className="text-text-primary">Let&apos;s build something that matters.</p>
         </div>
 
-        {/* Emoji signature like Matt's */}
-        <div className="pt-2">
-          <span className="text-2xl" role="img" aria-label="sparkle">
-            ✨
-          </span>
-        </div>
       </div>
     </motion.div>
   );
