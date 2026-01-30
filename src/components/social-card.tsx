@@ -9,7 +9,7 @@ export function SocialCard() {
 
   return (
     <motion.a
-      href="https://x.com/davidefod"
+      href="https://x.com/efoddavid"
       target="_blank"
       rel="noopener noreferrer"
       variants={cardVariants}
@@ -52,7 +52,7 @@ export function SocialCard() {
               />
             </svg>
           </div>
-          <span className="text-text-secondary text-sm">@davidefod</span>
+          <span className="text-text-secondary text-sm">@efoddavid</span>
         </div>
 
         {/* X/Twitter logo */}

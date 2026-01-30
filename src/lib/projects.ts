@@ -61,6 +61,7 @@ export const projects: Project[] = [
         "/images/projects/succession-story/screen-3.png",
       ],
     },
+    cardVideo: "/images/projects/succession-story/card-video.mp4",
     screenVideo: "/images/projects/succession-story/screen-video.mp4",
     accent: "#8b5cf6", // Purple
     year: "2025",

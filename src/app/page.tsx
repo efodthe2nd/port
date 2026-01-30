@@ -91,7 +91,7 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="https://x.com/davidefod"
+                  href="https://x.com/efoddavid"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-text-secondary hover:text-text-primary transition-colors"
