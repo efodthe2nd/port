@@ -12,6 +12,12 @@ export interface Project {
   };
   video?: string; // YouTube video ID for card preview
   heroVideo?: string; // Local video for project detail page
+  screenVideo?: string; // Local video to replace one of the screen images
+  i18nSection?: {
+    title: string;
+    subtitle: string;
+    startIndex: number; // Index in screens array where i18n images start
+  };
   accent: string;
   year: string;
 }
@@ -24,7 +30,7 @@ export const projects: Project[] = [
     description:
       "An immersive 3D skateboard customization experience. Users can design their perfect board with real-time 3D preview, custom graphics, and wheel configurations. Built with Three.js and React Three Fiber for smooth 60fps interactions.",
     stack: ["React", "Three.js", "React Three Fiber", "GSAP", "Tailwind CSS"],
-    liveUrl: "#",
+    liveUrl: "https://suburbia-dave.vercel.app/",
     images: {
       hero: "/images/projects/skateboard/hero.png",
       screens: [
@@ -45,16 +51,16 @@ export const projects: Project[] = [
     description:
       "A guided questionnaire application helping attorneys collect meaningful legacy letters from their clients. Built with a focus on conversion optimization and seamless payment integration. The application guides users through thoughtful prompts to create lasting letters for their loved ones.",
     stack: ["Next.js", "TypeScript", "Supabase", "Stripe", "Tailwind CSS"],
-    liveUrl: "https://successionstory.com",
+    liveUrl: "https://www.successionstory.now/login",
     images: {
       hero: "/images/projects/succession-story/hero.png",
       screens: [
-        "/images/projects/succession-story/screen-1.svg",
-        "/images/projects/succession-story/screen-2.svg",
-        "/images/projects/succession-story/screen-3.svg",
-        "/images/projects/succession-story/mobile.svg",
+        "/images/projects/succession-story/screen-1.png",
+        "/images/projects/succession-story/screen-2.png",
+        "/images/projects/succession-story/screen-3.png",
       ],
     },
+    screenVideo: "/images/projects/succession-story/screen-video.mp4",
     accent: "#8b5cf6", // Purple
     year: "2025",
   },
@@ -69,13 +75,18 @@ export const projects: Project[] = [
     images: {
       hero: "/images/projects/gobonki/hero.png",
       screens: [
-        "/images/projects/gobonki/screen-1.svg",
-        "/images/projects/gobonki/screen-2.svg",
-        "/images/projects/gobonki/screen-3.svg",
-        "/images/projects/gobonki/screen-4.svg",
+        "/images/projects/gobonki/screen-1.png",
+        "/images/projects/gobonki/screen-2.png",
+        "/images/projects/gobonki/screen-3.png",
+        "/images/projects/gobonki/screen-4.png",
       ],
     },
     video: "HD9GT_2_0yo",
+    i18nSection: {
+      title: "Internationalization & Localization",
+      subtitle: "Multi-language support with region-specific content adaptation for global market reach",
+      startIndex: 1, // screens 2 and 3 (index 1 and 2)
+    },
     accent: "#14b8a6", // Teal
     year: "2025",
   },

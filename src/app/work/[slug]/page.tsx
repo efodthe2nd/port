@@ -206,24 +206,87 @@ export default function ProjectPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6"
+              className="space-y-8"
             >
-              {project.images.screens.map((screen, index) => (
-                <motion.div
-                  key={screen}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-                  className="relative aspect-video rounded-xl overflow-hidden bg-surface border border-border"
-                >
-                  <ProjectImage
-                    src={screen}
-                    alt={`${project.title} screen ${index + 1}`}
-                    className="object-cover"
-                    accentColor={project.accent}
-                  />
-                </motion.div>
-              ))}
+              {/* Main screens grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                {/* Screen Video (if exists, shown first) */}
+                {project.screenVideo && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.5 }}
+                    className="relative aspect-video rounded-xl overflow-hidden bg-surface border border-border"
+                  >
+                    <video
+                      src={project.screenVideo}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-full object-cover"
+                    />
+                  </motion.div>
+                )}
+                {project.images.screens
+                  .slice(0, project.i18nSection?.startIndex ?? project.images.screens.length)
+                  .map((screen, index) => (
+                    <motion.div
+                      key={screen}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.5 + (project.screenVideo ? index + 1 : index) * 0.1 }}
+                      className="relative aspect-video rounded-xl overflow-hidden bg-surface border border-border"
+                    >
+                      <ProjectImage
+                        src={screen}
+                        alt={`${project.title} screen ${index + 1}`}
+                        className="object-cover"
+                        accentColor={project.accent}
+                      />
+                    </motion.div>
+                  ))}
+              </div>
+
+              {/* i18n Section (if exists) */}
+              {project.i18nSection && (
+                <>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.7 }}
+                    className="pt-8"
+                  >
+                    <h3 className="text-xl md:text-2xl font-medium text-text-primary mb-2">
+                      {project.i18nSection.title}
+                    </h3>
+                    <p className="text-text-secondary">
+                      {project.i18nSection.subtitle}
+                    </p>
+                  </motion.div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                    {project.images.screens
+                      .slice(project.i18nSection.startIndex)
+                      .map((screen, index) => (
+                        <motion.div
+                          key={screen}
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.5, delay: 0.8 + index * 0.1 }}
+                          className="relative aspect-video rounded-xl overflow-hidden bg-surface border border-border"
+                        >
+                          <ProjectImage
+                            src={screen}
+                            alt={`${project.title} screen ${project.i18nSection!.startIndex + index + 1}`}
+                            className="object-cover"
+                            accentColor={project.accent}
+                          />
+                        </motion.div>
+                      ))}
+                  </div>
+                </>
+              )}
             </motion.div>
           </div>
         </section>
