@@ -11,6 +11,7 @@ export interface Project {
     screens: string[];
   };
   video?: string; // YouTube video ID for card preview
+  cardVideo?: string; // Local video for card preview
   heroVideo?: string; // Local video for project detail page
   screenVideo?: string; // Local video to replace one of the screen images
   i18nSection?: {
@@ -39,7 +40,7 @@ export const projects: Project[] = [
         "/images/projects/skateboard/screen-3.png",
       ],
     },
-    video: "44I29krtxaw",
+    cardVideo: "/images/projects/skateboard/card-video.mp4",
     heroVideo: "/images/projects/skateboard/hero-video.mp4",
     accent: "#ec4899", // Pink
     year: "2024",

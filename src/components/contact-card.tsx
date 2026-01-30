@@ -12,7 +12,7 @@ export function ContactCard() {
 
   return (
     <motion.a
-      href="mailto:hello@davidefod.com"
+      href="mailto:davidefod@gmail.com"
       {...magneticProps}
       style={{ x: magneticStyle.x, y: magneticStyle.y }}
       variants={cardVariants}

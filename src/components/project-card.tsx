@@ -39,6 +39,15 @@ export function ProjectCard({ project, className = "" }: ProjectCardProps) {
                 className="pointer-events-none absolute inset-0 w-full h-full border-0 scale-[1.5] object-cover"
                 title={project.title}
               />
+            ) : project.cardVideo || project.heroVideo ? (
+              <video
+                src={project.cardVideo || project.heroVideo}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover"
+              />
             ) : (
               <ProjectImage
                 src={project.images.hero}
