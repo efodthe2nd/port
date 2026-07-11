@@ -81,7 +81,7 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/davidefod"
+                  href="https://www.linkedin.com/in/david-efod-27682b151/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-text-secondary hover:text-text-primary transition-colors"
