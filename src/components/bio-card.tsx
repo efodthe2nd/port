@@ -21,12 +21,12 @@ export function BioCard() {
           <p className="mt-1 text-text-secondary">
             crafting interfaces that convert at{" "}
             <a
-              href="https://thenazcreatives.com"
+              href="https://nazcreatives.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-teal hover:underline underline-offset-2 transition-colors"
             >
-              thenazcreatives.com
+              nazcreatives.com
             </a>
           </p>
         </div>
